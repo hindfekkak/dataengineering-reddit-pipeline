@@ -1,0 +1,12 @@
+# Ignore Airflow logs
+airflow/logs/
+
+# Ignore Terraform specific files and directories
+Terraform/.terraform/
+Terraform/terraform.tfstate
+Terraform/terraform.tfstate.backup
+Terraform/*.json
+
+# Ignore temporary files and directories
+tmp/
+*.tmp
